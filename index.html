@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfólio - Gustavo Duarte</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Gustavo Duarte">
+    <meta name="keywords" content="sites, web, desenvolvimento, programador, Gustavo Duarte, front-end, programador web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header id="home">
+        <div class="navbar" id="navbar">
+            <!-- <a href="#home" class="logo"><img src="./assets/img/logoWhite.png" alt="Logo"></a>-->
+            <nav id="navMenu">
+                <ul>
+                    <li class="list"><a href="#home" onclick="closeMenu()">Ínicio</a></li>
+                    <li class="list"><a class="links" href="#about" onclick="closeMenu()">Sobre</a></li>
+                    <li class="list"><a class="links" href="#skills" onclick="closeMenu()">Conhecimentos</a></li>
+                    <li class="list"><a class="links" href="#projects" onclick="closeMenu()">Projetos</a></li>
+                    <li class="list"><a class="links" href="#contact" onclick="closeMenu()">Contato</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-menu" onclick="toogleMenu()">
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="textbox">
+            <h1>Olá, eu sou Gustavo Duarte<br>
+                Desenvolvedor Front-end.</h1>
+            <a href="#projects" class="btn cta HeroSection">
+                <i class="fa-solid fa-clone"></i>
+                Ver Projetos
+            </a>
+            <a href="https://github.com/guduart" class="btn">
+                <i class="fab fa-github"></i>
+                Meu Github
+            </a>
+        </div>
+
+    </header>
+    <!--==================== ABOUT ====================-->
+    <section class="about" id="about">
+        <h3 class="heading">Sobre mim</h1>
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/Eu.jpeg" alt="minhaFoto" class="userPicture">
+                </div>
+                <div class="col-2">
+                    <h5>Desenvolvedor Front-end</h5>
+                    <p class="col-2-text"> Meu nome é <strong class="color">Gustavo</strong>, Tenho 26 anos, Sou formado em Engenharia Civil e apaixonado por programação. Desta forma, comecei minha graduação em Análise e Desenvolvimento de Sistemas.
+                    Sou um entusiasta de tecnologia e meu foco como desenvolvedor é
+                        desenvolver <strong class="color">interfaces modernas</strong> e de <strong class="color">alta
+                            qualidade</strong>, concentrando-se em <strong class="color">performance</strong>,
+                        <strong class="color">responsividade</strong>, além de utilizar <strong
+                            class="color">animações</strong> e
+                        <strong class="color">SEO.</strong>
+                    </p>
+                    <a href="https://www.linkedin.com/in/gustavo-duarte-41b172269/" class="btn cta">
+                        <i class="fab fa-linkedin"></i>
+                        Linkedin
+                    </a>
+                </div>
+            </div>
+    </section>
+    <!--==================== SKILLS ====================-->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h3 class="heading branco">Conhecimentos</h1>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="box-skills">
+                            <h2>Tecnologias de Front-end</h2>
+                            <div class="experience">
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        HTML
+                                    </span>
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        CSS
+                                    </span>
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        JAVASCRIPT
+                                    </span>
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        SASS
+                                    </span>
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        REACTJS
+                                    </span>
+                                </div>
+                                <div class="language">
+                                    <span>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 24 24" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                            </path>
+                                            <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z">
+                                            </path>
+                                        </svg>
+                                        BOOTSTRAP
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </section>
+    <!--==================== PROJECTS ====================-->
+    <section class="projects" id="projects">
+        <h1 class="heading">Projetos</h1>
+        <div class="row">
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="img/spa.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">SPA feito com SASS</h3>
+                        <p class="content-text">Projeto <span class="textHighlight">criado</span> utilizando Sass de forma prática, criando variáveis, funções e aninhamento de classes. Tecnologias usadas no projeto:  <span class="textHighlight">SASS, HTML E JAVASCRIPT</span>
+                           </p>
+                        <div class="LayerButtons">
+                            <a href="https://guduart.github.io/SPA-feito-com-SASS/" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guduart/SPA-feito-com-SASS" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="img/plataforma.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">
+                           Tela de Cadastro criado com Tailwind Css
+                            </h3>
+                        <p class="content-text">Criação <span class="textHighlight">de um website</span>, utilizando o utilitário group para aplicar estilo no elemento filho com base na modificação do estado do elemento pai. Tecnologias usadas no projeto:<span class="textHighlight">HTML, CSS e JAVASCRIPT</span></p>
+                        <div class="LayerButtons">
+                            <a href="https://guduart.github.io/Tela-de-Cadastro-criado-com-Tailwind-Css/" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guduart/Tela-de-Cadastro-criado-com-Tailwind-Css" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- PROJECT -->
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="img/robo.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Robotron</h3>
+                        <p class="content-text">Projeto <span class="textHighlight">criado</span> com site de robo, aonde mede força, poder, energia e velocidade. Aprendendo com esse protejo o que são objetos e analisando métodos para manipulá-los; manipular arrays e utilizando forEach; Tecnologias usadas no projeto:  <span class="textHighlight">HTML, CSS e JAVASCRIPT</span> utilizando
+                            ferramentas e técnicas de <span class="textHighlight">
+                            </span></p>
+                        <div class="LayerButtons">
+                            <a href="https://guduart.github.io/Robotron/" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guduart/Robotron" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="img/mochila.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">
+                            Mochila para Viagem
+                            </h3>
+                        <p class="content-text">Projeto <span class="textHighlight">criado</span>  com o intuito de quando for viajar, deixe todos os itens necessários. Podendo fazer a exclusão, adicionar e editar quando quiser, um facilitador para não esquecer seus itens. Tecnologias usadas no projeto:<span class="textHighlight">HTML, CSS e JAVASCRIPT</span></p>
+                        <div class="LayerButtons">
+                            <a href="https://guduart.github.io/Mochila-para-Viagem/" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guduart/Mochila-para-Viagem" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="img/alura.plus.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">AluraPlus
+                        </h3>
+                        <p class="content-text">Projeto criado para o AluraPlus, no qual é um site completo aonde vemos as opções dos combos para o cliente assinar. Tecnologias usadas no projeto:<span class="textHighlight">HTML, CSS e JAVASCRIPT</span></p>
+                        <div class="LayerButtons">
+                            <a href="https://guduart.github.io/AluraPlus/" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guduart/AluraPlus" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="img/culturama.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">
+                            Culturama</h3>
+                        <p class="content-text">Projeto  <span class="textHighlight">criado</span>  e pensado para atender o público que gosta de culta e sua versatilidade. Tecnologias usadas no projeto: 
+                            <span class="textHighlight">HTML e CSS</span> 
+                  
+    
+                        <div class="LayerButtons">
+                            <a href="https://guduart.github.io/Culturama/" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guduart/Culturama" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="img/jogo.com.java.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">
+                            Jogo com JavaScript</h3>
+                        <p class="content-text">Esse <span class="textHighlight">foi</span> um dos meus primeiros projetos aprendendo JavaScript, no qual pude me desafiar e aprender bastante, e assim gostar ainda mais dessa tecnologia Tecnologias usadas no projeto: <span class="textHighlight">HTML e JAVASCRIPT</span></p>
+                        <div class="LayerButtons">
+                            <a href="https://guduart.github.io/Jogo-com-JavaScript/" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guduart/Jogo-com-JavaScript" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="img/site.de.livros.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">
+                            Site de venda Livros</h3>
+                        <p class="content-text">Site <span class="textHighlight">feito</span>
+                              durante o curso Alura, para a vendas de livros, podendo adicionar ao carrinho, excluir e etc.. Foi utilizado método ForEacht e o método Map, como também o método array. Tecnologias usadas no projeto:  <span
+                                class="textHighlight"></span>HTML, CSS E JAVASCRIPT</p>
+                        <div class="LayerButtons">
+                            <a href="https://guduart.github.io/Site-de-venda-Livros/" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guduart/Site-de-venda-Livros" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="img/número.da.sorte.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">
+                            Jogo com-reconhecimento vocal Jogo da sorte</h3>
+                        <p class="content-text">Projeto <span class="textHighlight">feito</span>
+                                  com o reconhecimento vocal para jogar com outra pessoa, no qual é sorteado um número e voce ou a outra pessoa tem que adivinhar Tecnologias usadas no projeto:  <span
+                                class="textHighlight">HTML, CSS e JAVASCRIPT</span>
+                        </p>
+                        <div class="LayerButtons">
+                            <a href="https://guduart.github.io/Jogo-com-reconhecimento-vocal-Jogo-da-sorte/" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guduart/Jogo-com-reconhecimento-vocal-Jogo-da-sorte" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- PROJECT -->
+            <div class="projects-col">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="img/gerador.de.senha.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">
+                            Gerador de Senhas
+                            </h3>
+                        <p class="content-text">Site<span class="textHighlight"> criado, quando precisar criar uma senha com determinado número de caracteres, podendo sempre editar, aumento ou diminuindo o número de caracteres e gerando sempre uma senha diferente. Tecnologias usadas no projeto:</span>HTML, CSS e JAVASCRIPT</p>
+                        <div class="LayerButtons">
+                            <a href="https://guduart.github.io/Gerador-de-Senhas/" class="btn btnProjects">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                Website
+                            </a>
+                            <a href="https://github.com/guduart/Gerador-de-Senhas" class="btn btnProjects">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 5%;">
+        
+            
+
+                </div>
+            </div>
+        </div>
+
+        <div class="btnWrapper" id="btnWrapper">
+            <button class="btn cta" id="load-more">Ver Mais</button>
+        </div>
+
+
+    </section>
+    <!--==================== CONTACT ====================-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h5 class="heading branco">Contato</h5>
+            <div class="row">
+                <div class="contato-col">
+                    <h5 class="subHeading branco">Informações de contato</h5>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>
+                            <h5>Localização</h5>
+                            <p>Valparaíso de Goiás
+                            </p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <span>
+                            <h5>Telefone</h5>
+                            <p>(61) 983197950</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            <h5>Email</h5>
+                            <p>programadordegustavo@gmail.com</p>
+                        </span>
+                    </div>
+                    <ul class="socialmedia-list">
+                        <li class="socialmedia-wrapper">
+                            <a href="https://www.linkedin.com/in/gustavo-duarte-41b172269/">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="socialmedia-wrapper">
+                            <a href="https://github.com/guduart">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="socialmedia-wrapper">
+                            <a href="https://api.whatsapp.com/send?phone=5561983197950&text=Ol%C3%A1">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+             <div class="contato-col">
+                    <p id="status">
+                    </p>
+                    <h5 class="subHeading branco">Contate-me</h5>
+                    <form id="my-form" action="https://api.whatsapp.com/send?phone=5561983197950&text=Ol%C3%A1" method="POST">
+                        <input type="text" name="Name" placeholder="Seu Nome" required>
+                        <input type="email" name="email" placeholder="Seu Email" required>
+                        <textarea name="message" rows="8" placeholder="Sua Mensagem"></textarea>
+                        <button id="my-form-button" type="submit" class="btn cta">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== FOOTER ====================-->
+    <footer>
+        <p>© <span id="CurrentYear"></span> Gustavo Duarte</p>
+    </footer>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="ScrollTop">
+        <i class="las la-chevron-up"></i>
+    </a>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
